@@ -5,10 +5,9 @@
 
 #include<stdio.h>
 int main(){
-	int x, y;
+	int x, y, temp;
 	scanf("%d%d", &x ,&y);
-	printf("%d %d", x, y);
-	int temp = x;
+	//printf("%d %d", x, y);
 	x = y;
 	y = temp;
 	printf("%d %d", x, y);
