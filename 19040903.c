@@ -1,29 +1,29 @@
-//Î´Íê³É
+//æœªå®Œæˆ
 #include<stdio.h>
 int main(){
 	char t;
 	int a, b, c, n;
 	double cost;
-	printf("ÇëÊäÈë¹«²¼¼Û£ºÍ·µÈ²Õ ¹«Îñ²Õ ¾­¼Ã²Õ\n");
+	printf("è¯·è¾“å…¥å…¬å¸ƒä»·ï¼šå¤´ç­‰èˆ± å…¬åŠ¡èˆ± ç»æµèˆ±\n");
 	scanf("%d%d%d",&a ,&b, &c);
-	printf("ÇëÊäÈë²ÕÎ»´úÂë£º\n");
+	printf("è¯·è¾“å…¥èˆ±ä½ä»£ç ï¼š\n");
 	scanf("%s", &t);
-	printf("ÇëÊäÈë¹ºÆ±ÊıÁ¿£º\n");
+	printf("è¯·è¾“å…¥è´­ç¥¨æ•°é‡ï¼š\n");
 	scanf("%d", &n);
 	switch((int)t){
-		case 70:	cost = a*n;
-		case 67:	cost = b*n;
-		case 66:	cost = c*n*0.9;
-		case 72:	cost = c*n*0.85;
-		case 75:	cost = c*n*0.8;
-		case 76:	cost = c*n*0.75;
-		case 77:	cost = c*n*0.7;
-		case 78:	cost = c*n*0.65;
-		case 81:	cost = c*n*0.6;
-		case 84:	cost = c*n*0.55;
-		case 88:	cost = c*n*0.5;
-		default:	cost = -1;
+		case 70:	cost = a*n;		break;
+		case 67:	cost = b*n;		break;
+		case 66:	cost = c*n*0.9;	break;
+		case 72:	cost = c*n*0.85;break;
+		case 75:	cost = c*n*0.8;	break;
+		case 76:	cost = c*n*0.75;break;
+		case 77:	cost = c*n*0.7;	break;
+		case 78:	cost = c*n*0.65;break;
+		case 81:	cost = c*n*0.6;	break;
+		case 84:	cost = c*n*0.55;break;
+		case 88:	cost = c*n*0.5;	break;
+		default:	cost = -1;		break;
 	}
-	printf("×ÜÆ±¿îÎª£º%.2lf\n", cost);
+	printf("æ€»ç¥¨æ¬¾ä¸ºï¼š%.2lf\n", cost);
 	return 0;
 }
