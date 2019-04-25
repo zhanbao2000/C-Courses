@@ -1,4 +1,3 @@
-//Î´Íê³É
 #include<stdio.h>
 #include<math.h>
 
@@ -6,7 +5,7 @@ long long pp(int d, int x){
 	int i, result;
 	result = 0;
 	for(i = 1;i<=x;i++){
-		result += ....;
+		result += d*pow(10, i-1);;
 	}
 	return result;
 }
