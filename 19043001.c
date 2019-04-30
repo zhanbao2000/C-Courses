@@ -25,6 +25,6 @@ void gdbh(int x){
 int main(){
 	int x;
 	scanf("%d", &x);
-	gdbh(x)
+	gdbh(x);
 	return 0;
 }
