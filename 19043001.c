@@ -23,8 +23,8 @@ void gdbh(int x){
 }
 
 int main(){
-	int x, i;
+	int x;
 	scanf("%d", &x);
-	gdbh(i)
+	gdbh(x)
 	return 0;
 }
