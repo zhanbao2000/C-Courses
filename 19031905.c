@@ -10,6 +10,6 @@ int main(){
 	x = x-c*10;
 	d = x/5;
 	x = x-d*5;
-	printf("%d\n%d\n%d\n%d\n%d\n", a, b, c, d, x);
+	printf("%d个10元,%d个5元,%d个1元,%d个5角和%d个1角", a, b, c, d, x);
 	return 0;
 }
