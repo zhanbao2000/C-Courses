@@ -6,7 +6,7 @@ int main(){
 		if(a==b && b==c && c==a){
 			printf("该三角形为等边三角形");
 		}
-		else if(a==b || b==a || a==c){
+		else if(a==b || b==c || a==c){
 			printf("该三角形为等腰三角形");
 		}
 		else if(a*a+b*b==c*c || a*a+c*c==b*b || b*b+c*c==a*a){
