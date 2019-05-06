@@ -9,6 +9,6 @@ int main(){
 	x = x-b*100;
 	c = x/10;
 	d = x-c*10;
-	printf("%d的千位是%d，百位是%d，十位是%d，个位是%d\n", y, a, b, c, d);
+	printf("\"%d\"鐨勫崈浣嶆槸\"%d\",鐧句綅鏄痋"%d\",鍗佷綅鏄痋"%d\",涓綅鏄痋"%d\"", y, a, b, c, d);
 	return 0;
 }
