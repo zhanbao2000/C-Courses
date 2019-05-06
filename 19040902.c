@@ -12,6 +12,6 @@ int main(){
 			case 5: m = a+a*0.2375;
 		}
 	}
-	printf("%lf\n", m);
+	printf("%.2lf\n", m);
 	return 0;
 }
