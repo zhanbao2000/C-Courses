@@ -4,19 +4,19 @@ int main(){
 	scanf("%lf%lf%lf", &a, &b, &c);
 	if(a+b>c && a+c>b && b+c>a){
 		if(a==b && b==c && c==a){
-			printf("等边三角形\n");
+			printf("璇ヤ笁瑙掑舰涓虹瓑杈逛笁瑙掑舰");
 		}
 		else if(a==b || b==a || a==c){
-			printf("等腰三角形\n");
+			printf("璇ヤ笁瑙掑舰涓虹瓑鑵颁笁瑙掑舰");
 		}
 		else if(a*a+b*b==c*c || a*a+c*c==b*b || b*b+c*c==a*a){
-			printf("直角三角形\n");
+			printf("璇ヤ笁瑙掑舰涓虹洿瑙掍笁瑙掑舰");
 		}
 		else{
-			printf("任意三角形\n");
+			printf("璇ヤ笁瑙掑舰涓轰换鎰忎笁瑙掑舰");
 		}
 	}else{
-		printf("不能构成三角形\n");
+		printf("涓嶈兘鏋勬垚涓夎褰n");
 	}
 	return 0;
 }
