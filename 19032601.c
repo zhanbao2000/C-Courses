@@ -21,6 +21,6 @@ int main(){
 		case 9:	bonus = bon6+(i-600000)*0.015;	break;
 		default:bonus = bon10+(i-1000000)*0.01;	break;
 	}
-	printf("%0.f",bonus);
+	printf("%.2f",bonus);
 	return 0;
 }
