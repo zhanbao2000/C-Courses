@@ -6,7 +6,7 @@ int main(){
 	printf("请输入F舱、C舱和Y舱的公布价\n");
 	scanf("%d%d%d",&a ,&b, &c);
 	printf("请输入舱位代码和购票数量\n");
-	scanf(" %s%d", &t, &n);
+	scanf(" %c%d", &t, &n);
 	switch(t){
 		case 'F':	cost = a*n;		break;
 		case 'C':	cost = b*n;		break;
