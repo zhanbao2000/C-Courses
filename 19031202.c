@@ -8,8 +8,9 @@ int main(){
 	int x, y, temp;
 	scanf("%d%d", &x ,&y);
 	//printf("%d %d", x, y);
-	x = y;
-	y = temp;
+	temp = y;
+	y = x;
+	x = temp;
 	printf("%d %d", x, y);
 	return 0;
 }
