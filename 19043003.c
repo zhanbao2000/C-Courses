@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 
-int fun(long long s){
+long long fun(long long s){
 	long long t;
 	int i, j;
 	
