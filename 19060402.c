@@ -3,7 +3,7 @@
 int main(){
 	int i = 0;
 	int pmax = 0, pmin = 0;
-	int num[9];
+	int num[100];
 	int max, min;
 	for(i;i<=9;i++){
 		int temp;
